@@ -1,0 +1,22 @@
+{
+  "name": "renovate-mylib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-bianchi/renovate-mylib.git"
+  },
+  "author": "Leo Bianchi <leo.c.bianchi@hotmail.com> (github.com/leo-bianchi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leo-bianchi/renovate-mylib/issues"
+  },
+  "homepage": "https://github.com/leo-bianchi/renovate-mylib#readme",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
