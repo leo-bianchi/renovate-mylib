@@ -1,8 +1,7 @@
 const Browser = require('./launch.js');
 
-const browser = new Browser();
+const browser = new Browser('myuser', 'mypass');
 
 void(async () => {
-  const b = await browser.instance;
-
+  await browser.renovate();
 })();
